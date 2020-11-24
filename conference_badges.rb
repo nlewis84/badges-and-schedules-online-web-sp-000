@@ -5,9 +5,11 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
+batch_badge = []
+
 def batch_badge_creator(array)
   array.each |index|
-    badge_maker(index)
+    batch_badge >> badge_maker(index)
 end
 
 =begin
