@@ -9,7 +9,7 @@ batch_badge = []
 
 def batch_badge_creator(array)
   array.each |index|
-    batch_badge >> badge_maker(index)
+    batch_badge << badge_maker(index)
 end
 
 =begin
