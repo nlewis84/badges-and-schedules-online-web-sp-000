@@ -7,7 +7,7 @@ end
 batch_badge = []
 
 def batch_badge_creator(array)
-  array.each |index|
+  array.each do |index|
     batch_badge << badge_maker(index)
     binding.pry
 end
