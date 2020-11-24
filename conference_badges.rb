@@ -8,6 +8,7 @@ end
 def batch_badge_creator(array)
   array.each |index|
     badge_maker(index)
+    binding.pry
   end
 end
 
