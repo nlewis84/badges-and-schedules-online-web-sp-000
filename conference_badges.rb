@@ -4,6 +4,7 @@ def badge_maker(name)
   puts "Hello, my name is #{name}."
 end
 
+=begin
 def batch_badge_creator(array)
   array.each |index|
     badge_maker(index)
@@ -15,3 +16,4 @@ def assign_rooms(array)
     put "Hello, #{val}! You'll be assigned to room #{index + 1}!"
   end
 end
+=end
